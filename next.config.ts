@@ -1,3 +1,4 @@
-import type { NextConfig } from "next";
-const nextConfig: NextConfig = {};
-export default nextConfig;
+
+import { defineCloudflareConfig } from "@opennextjs/cloudflare";
+
+export default defineCloudflareConfig();
